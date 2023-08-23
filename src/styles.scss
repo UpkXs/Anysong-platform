@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+@import 'compass-mixins/lib/compass/css3';
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+html, body {
+  background-color: #e7e7ea;
+  font-family: "Inconsolata", monospace;
+  font-size: 1.13em;
+  font-weight: bold;
+}
