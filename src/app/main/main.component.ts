@@ -14,4 +14,7 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
   }
 
+  btnClicked(btnText: string) {
+    console.log("fo029OTpv1 :: btnText : " + btnText)
+  }
 }

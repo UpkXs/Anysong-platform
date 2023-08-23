@@ -6,11 +6,13 @@
   >
     <anysong-button
       [btnText]="byArtist"
+      (click)="btnClicked(byArtist)"
     >
     </anysong-button>
 
     <anysong-button
       [btnText]="bySong"
+      (click)="btnClicked(bySong)"
     >
     </anysong-button>
   </div>
