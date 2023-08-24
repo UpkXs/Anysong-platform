@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class MainComponent implements OnInit {
   byArtist: string = 'by Artist';
   bySong: string = 'by Song';
+  selectTheOptions: string = 'select the options...';
 
   constructor() { }
 
