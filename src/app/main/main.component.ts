@@ -9,6 +9,8 @@ export class MainComponent implements OnInit {
   byArtist: string = 'by Artist';
   bySong: string = 'by Song';
   selectTheOptions: string = 'select the options...';
+  optionSelected: boolean = false;
+  selectedOptionText!: string;
 
   constructor() { }
 
@@ -16,6 +18,9 @@ export class MainComponent implements OnInit {
   }
 
   btnClicked(btnText: string) {
-    console.log("fo029OTpv1 :: btnText : " + btnText)
+    this.optionSelected = true;
+    this.selectedOptionText = btnText;
+    console.log("N9ll68DYbF :: this.optionSelected : " + this.optionSelected);
+    console.log("2dc8s8lnMV :: this.selectedOptionText : " + this.selectedOptionText);
   }
 }
