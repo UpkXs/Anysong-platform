@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
 
 @Component({
   selector: 'anysong-octothorpe-with-numeric',
@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./octothorpe-with-numeric.component.scss']
 })
 export class OctothorpeWithNumericComponent implements OnInit {
+
+  // todo aro change to selected option text
+  @Input() numeric!: number;
 
   constructor() { }
 
