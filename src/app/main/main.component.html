@@ -6,13 +6,13 @@
   >
     <anysong-button
       [btnText]="byArtist"
-      (click)="btnClicked(byArtist)"
+      (click)="btnClicked(byArtist, 1)"
     >
     </anysong-button>
 
     <anysong-button
       [btnText]="bySong"
-      (click)="btnClicked(bySong)"
+      (click)="btnClicked(bySong, 2)"
     >
     </anysong-button>
   </div>
@@ -26,6 +26,8 @@
     class="anysong-playground"
   >
     <anysong-playground
+      [numeric]="selectedOptionNumber"
+      [byWhat]="selectedOptionText"
     >
     </anysong-playground>
   </div>

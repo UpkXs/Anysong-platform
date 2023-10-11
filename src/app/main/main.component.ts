@@ -11,15 +11,17 @@ export class MainComponent implements OnInit {
   selectTheOptions: string = 'select the options...';
   optionSelected: boolean = false;
   selectedOptionText!: string;
+  selectedOptionNumber!: number;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  btnClicked(btnText: string) {
+  btnClicked(btnText: string, btnNumber: number) {
     this.optionSelected = true;
     this.selectedOptionText = btnText;
+    this.selectedOptionNumber = btnNumber;
     console.log("N9ll68DYbF :: this.optionSelected : " + this.optionSelected);
     console.log("2dc8s8lnMV :: this.selectedOptionText : " + this.selectedOptionText);
   }

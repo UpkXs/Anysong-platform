@@ -7,8 +7,9 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class OctothorpeWithNumericComponent implements OnInit {
 
-  // todo aro change to selected option text
   @Input() numeric!: number;
+  @Input() byWhat!: string;
+  // todo aro create new model and get as @Input() this model
 
   constructor() { }
 
