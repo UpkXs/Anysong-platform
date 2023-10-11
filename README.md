@@ -1,27 +1,24 @@
 # AnysongPlatform
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.4.
+Have you ever wondered how you can find a song by lyrics alone? Is this even possible?
 
-## Development server
+Using a tool to search for a song can save time and effort by quickly providing accurate results.
+To use a lyric finder for songs, you would simply enter the name of the song or the artist
+into the search bar and browse through the results to find the lyrics you are looking for.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+### Feature requests:
 
-## Code scaffolding
+It can also help in discovering new songs and artists, organizing music collections, and accessing lyrics
+and other information about the song. Also offer the ability to search by specific lyrics or phrases within a song.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Current status:
 
-## Build
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<p style="text-align: center;">
+  <img src="src/assets/img/status1.png" width="800">
+  <img src="src/assets/img/status2.png" width="800">
+  <img src="src/assets/img/status3.png" width="800">
+  <img src="src/assets/img/status4.png" width="800">
+</p>
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+🔎 **Smart, Fast and Extensible Build System**
