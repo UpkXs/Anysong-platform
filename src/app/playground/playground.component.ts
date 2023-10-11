@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {AnysongButton} from "../../model/AnysongButton";
 
 @Component({
   selector: 'anysong-playground',
@@ -7,8 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class PlaygroundComponent implements OnInit {
 
-  @Input() numeric!: number;
-  @Input() byWhat!: string;
+  @Input() selectedOptionButton!: AnysongButton;
 
   constructor() { }
 

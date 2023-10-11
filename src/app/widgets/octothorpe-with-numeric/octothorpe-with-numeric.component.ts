@@ -1,4 +1,5 @@
 import {Component, Input, OnInit} from '@angular/core';
+import {AnysongButton} from "../../../model/AnysongButton";
 
 @Component({
   selector: 'anysong-octothorpe-with-numeric',
@@ -7,9 +8,7 @@ import {Component, Input, OnInit} from '@angular/core';
 })
 export class OctothorpeWithNumericComponent implements OnInit {
 
-  @Input() numeric!: number;
-  @Input() byWhat!: string;
-  // todo aro create new model and get as @Input() this model
+  @Input() selectedOptionButton!: AnysongButton;
 
   constructor() { }
 

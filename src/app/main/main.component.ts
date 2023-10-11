@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {AnysongButton} from "../../model/AnysongButton";
 
 @Component({
   selector: 'anysong-main',
@@ -10,19 +11,20 @@ export class MainComponent implements OnInit {
   bySong: string = 'by Song';
   selectTheOptions: string = 'select the options...';
   optionSelected: boolean = false;
-  selectedOptionText!: string;
-  selectedOptionNumber!: number;
+  selectedOptionButton!: AnysongButton;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
-  btnClicked(btnText: string, btnNumber: number) {
+  btnClicked(numeric: number, btnText: string) {
     this.optionSelected = true;
-    this.selectedOptionText = btnText;
-    this.selectedOptionNumber = btnNumber;
+    this.selectedOptionButton = {
+      numeric: numeric,
+      btnText: btnText
+    }
     console.log("N9ll68DYbF :: this.optionSelected : " + this.optionSelected);
-    console.log("2dc8s8lnMV :: this.selectedOptionText : " + this.selectedOptionText);
+    console.log("2l034qCcYv :: this.selectedOptionButton : " + this.selectedOptionButton);
   }
 }
